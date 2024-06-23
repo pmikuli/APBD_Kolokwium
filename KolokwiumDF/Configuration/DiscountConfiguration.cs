@@ -23,5 +23,6 @@ public class DiscountConfiguration : IEntityTypeConfiguration<Discount>
             IdDiscount = 1,
             Value = 10
         });
+        builder.HasData(list);
     }
 }
